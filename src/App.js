@@ -6,6 +6,7 @@ import Content from './context-content'
 export default function App() {
   return (
     <userContext.Provider value={'Tom Jerry'}>
+      <Header/>
       <Content/>
     </userContext.Provider>
   )
